@@ -24,14 +24,14 @@ QLoRA (Quantized Low-Rank Adaptation) is a technique designed to fine-tune large
 
 # Fine-Tuning Large Language Models (LLMs)
 
-### Overview
+### Project Overview
 Fine-tuning is the process of adapting a pre-trained language model to perform specific tasks by training it on a smaller, task-specific dataset. This process enhances the model's performance on particular applications, making it more accurate and relevant for the desired task.
 
 ### Steps in Fine-Tuning
 1. **Select a Pre-Trained Model**: Choose a model that suits your task, such as GPT-3, BERT, or LLaMA.
-2. **Prepare the Dataset**: Gather and preprocess a task-specific dataset.
-3. **Configure Training**: Set up the loss function, optimizer, and learning rate for the task.
-4. **Fine-Tune the Model**: Train the pre-trained model on the task-specific dataset.
+2. **Prepare the Dataset**: Gather and preprocess a task-specific dataset. The dataset used for this project was of 10000 rows taken from hugging face site https://huggingface.co/datasets/timdettmers/openassistant-guanaco
+3. **Configure Training**: Set up the loss function, optimizer, and learning rate for the task to fine tune it.
+4. **Fine-Tune the Model**: Train the pre-trained model on the task-specific dataset. My fine tuned data set of 1000 rows is thus prepared.  https://huggingface.co/datasets/anushkawwwwp/guanaco-llama2-1k/tree/main
 5. **Evaluate and Iterate**: Assess the model's performance and refine the process as needed.
 
 ### Benefits
